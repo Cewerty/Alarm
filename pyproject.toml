@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "alarm"
+version = "0.1.0"
+description = ""
+authors = ["Cewerty <88933231+Cewerty@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.4.1"
+fastapi = {extras = ["all"], version = "^0.110.1"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
